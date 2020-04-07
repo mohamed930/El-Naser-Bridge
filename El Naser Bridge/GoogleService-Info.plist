@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>160199001022-kn4eqjd68c6j325298b1of6l2va2lqdf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.160199001022-kn4eqjd68c6j325298b1of6l2va2lqdf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBb3984KUKYgLNMBRaIqzIpZUcG7a76cQU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>160199001022</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>MyCompany199.El-Naser-Bridge</string>
+	<key>PROJECT_ID</key>
+	<string>el-naser-bridge</string>
+	<key>STORAGE_BUCKET</key>
+	<string>el-naser-bridge.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:160199001022:ios:44beebfa9eaf4e2e6eefef</string>
+	<key>DATABASE_URL</key>
+	<string>https://el-naser-bridge.firebaseio.com</string>
+</dict>
+</plist>

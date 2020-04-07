@@ -1,0 +1,6 @@
+framework module Pods_El_Naser_Bridge {
+  umbrella header "Pods-El Naser Bridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

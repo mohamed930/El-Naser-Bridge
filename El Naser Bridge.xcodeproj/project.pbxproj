@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D316F2C723F2FACB007D266A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D316F2C623F2FACB007D266A /* GoogleService-Info.plist */; };
+		D316F2C923F3166E007D266A /* InShot_20200211_184626580.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D316F2C823F3166E007D266A /* InShot_20200211_184626580.mp4 */; };
+		D3A222B923F47E0400CA4061 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A222B823F47E0400CA4061 /* MoreViewController.swift */; };
+		D3A222BB23F480F100CA4061 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A222BA23F480F100CA4061 /* MyCell.swift */; };
+		D3A222BD23F5273400CA4061 /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A222BC23F5273400CA4061 /* color.swift */; };
+		D3D980FC23F2F7FA00EB75E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D980FB23F2F7FA00EB75E3 /* AppDelegate.swift */; };
+		D3D9810323F2F7FD00EB75E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D9810223F2F7FD00EB75E3 /* Assets.xcassets */; };
+		D3D9810E23F2F86C00EB75E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D9810D23F2F86C00EB75E3 /* Main.storyboard */; };
+		D3D9811023F2F8D200EB75E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D9810F23F2F8D200EB75E3 /* LaunchScreen.storyboard */; };
+		D3D9811223F2F8EB00EB75E3 /* InShot_20200211_012921855.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D3D9811123F2F8EB00EB75E3 /* InShot_20200211_012921855.mp4 */; };
+		D3EE3B9D23F610F30013B28C /* EnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EE3B9C23F610F30013B28C /* EnViewController.swift */; };
+		D3EE3BA123F61CA90013B28C /* Language.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3EE3B9F23F61CA90013B28C /* Language.xcdatamodeld */; };
+		D3EE3BA323F631FE0013B28C /* MoreEnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EE3BA223F631FE0013B28C /* MoreEnViewController.swift */; };
+		D3EE3BA523F63BDB0013B28C /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EE3BA423F63BDB0013B28C /* Tools.swift */; };
+		D3F1CFA923F6C4CF00E348BC /* ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F1CFA823F6C4CF00E348BC /* ArViewController.swift */; };
+		F82E184FF1DADF1EDEA2E7F5 /* Pods_El_Naser_Bridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B132E0EFAF0ECA055147D8EB /* Pods_El_Naser_Bridge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59D8453514258D1AB27A9E9C /* Pods-El Naser Bridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-El Naser Bridge.debug.xcconfig"; path = "Target Support Files/Pods-El Naser Bridge/Pods-El Naser Bridge.debug.xcconfig"; sourceTree = "<group>"; };
+		B132E0EFAF0ECA055147D8EB /* Pods_El_Naser_Bridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_El_Naser_Bridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D316F2C623F2FACB007D266A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D316F2C823F3166E007D266A /* InShot_20200211_184626580.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = InShot_20200211_184626580.mp4; sourceTree = "<group>"; };
+		D3A222B823F47E0400CA4061 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		D3A222BA23F480F100CA4061 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		D3A222BC23F5273400CA4061 /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
+		D3D980F823F2F7FA00EB75E3 /* El Naser Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "El Naser Bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D980FB23F2F7FA00EB75E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3D9810223F2F7FD00EB75E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3D9810723F2F7FD00EB75E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D9810D23F2F86C00EB75E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D3D9810F23F2F8D200EB75E3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3D9811123F2F8EB00EB75E3 /* InShot_20200211_012921855.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = InShot_20200211_012921855.mp4; sourceTree = "<group>"; };
+		D3EE3B9C23F610F30013B28C /* EnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnViewController.swift; sourceTree = "<group>"; };
+		D3EE3BA023F61CA90013B28C /* MyNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyNote.xcdatamodel; sourceTree = "<group>"; };
+		D3EE3BA223F631FE0013B28C /* MoreEnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreEnViewController.swift; sourceTree = "<group>"; };
+		D3EE3BA423F63BDB0013B28C /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		D3F1CFA823F6C4CF00E348BC /* ArViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArViewController.swift; sourceTree = "<group>"; };
+		E4D5318EEFE1FDD201D4E304 /* Pods-El Naser Bridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-El Naser Bridge.release.xcconfig"; path = "Target Support Files/Pods-El Naser Bridge/Pods-El Naser Bridge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D980F523F2F7FA00EB75E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82E184FF1DADF1EDEA2E7F5 /* Pods_El_Naser_Bridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27700F4DCFED1328970DBD9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59D8453514258D1AB27A9E9C /* Pods-El Naser Bridge.debug.xcconfig */,
+				E4D5318EEFE1FDD201D4E304 /* Pods-El Naser Bridge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B24C8A97DE3321A3CDF070B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B132E0EFAF0ECA055147D8EB /* Pods_El_Naser_Bridge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D980EF23F2F7FA00EB75E3 = {
+			isa = PBXGroup;
+			children = (
+				D3D980FA23F2F7FA00EB75E3 /* El Naser Bridge */,
+				D3D980F923F2F7FA00EB75E3 /* Products */,
+				27700F4DCFED1328970DBD9A /* Pods */,
+				5B24C8A97DE3321A3CDF070B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D980F923F2F7FA00EB75E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D980F823F2F7FA00EB75E3 /* El Naser Bridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D980FA23F2F7FA00EB75E3 /* El Naser Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				D3D980FB23F2F7FA00EB75E3 /* AppDelegate.swift */,
+				D3EE3B9A23F60F9C0013B28C /* My Library */,
+				D3EE3B9B23F60FB10013B28C /* Code View Controllers */,
+				D3EE3B9923F60F740013B28C /* View Controllers */,
+				D3EE3B9E23F61C890013B28C /* Data Model */,
+				D3D9810723F2F7FD00EB75E3 /* Info.plist */,
+				D316F2C623F2FACB007D266A /* GoogleService-Info.plist */,
+			);
+			path = "El Naser Bridge";
+			sourceTree = "<group>";
+		};
+		D3EE3B9923F60F740013B28C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3D9810D23F2F86C00EB75E3 /* Main.storyboard */,
+				D3D9810223F2F7FD00EB75E3 /* Assets.xcassets */,
+				D3D9811123F2F8EB00EB75E3 /* InShot_20200211_012921855.mp4 */,
+				D316F2C823F3166E007D266A /* InShot_20200211_184626580.mp4 */,
+				D3D9810F23F2F8D200EB75E3 /* LaunchScreen.storyboard */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D3EE3B9A23F60F9C0013B28C /* My Library */ = {
+			isa = PBXGroup;
+			children = (
+				D3A222BC23F5273400CA4061 /* color.swift */,
+			);
+			path = "My Library";
+			sourceTree = "<group>";
+		};
+		D3EE3B9B23F60FB10013B28C /* Code View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3EE3BA423F63BDB0013B28C /* Tools.swift */,
+				D3F1CFA823F6C4CF00E348BC /* ArViewController.swift */,
+				D3A222B823F47E0400CA4061 /* MoreViewController.swift */,
+				D3EE3B9C23F610F30013B28C /* EnViewController.swift */,
+				D3EE3BA223F631FE0013B28C /* MoreEnViewController.swift */,
+				D3A222BA23F480F100CA4061 /* MyCell.swift */,
+			);
+			path = "Code View Controllers";
+			sourceTree = "<group>";
+		};
+		D3EE3B9E23F61C890013B28C /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3EE3B9F23F61CA90013B28C /* Language.xcdatamodeld */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D980F723F2F7FA00EB75E3 /* El Naser Bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D9810A23F2F7FD00EB75E3 /* Build configuration list for PBXNativeTarget "El Naser Bridge" */;
+			buildPhases = (
+				83F0D361C1BD2654CADBD61A /* [CP] Check Pods Manifest.lock */,
+				D3D980F423F2F7FA00EB75E3 /* Sources */,
+				D3D980F523F2F7FA00EB75E3 /* Frameworks */,
+				D3D980F623F2F7FA00EB75E3 /* Resources */,
+				1A26EAF9BE46BE1E6A67AB0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "El Naser Bridge";
+			productName = "El Naser Bridge";
+			productReference = D3D980F823F2F7FA00EB75E3 /* El Naser Bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D980F023F2F7FA00EB75E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Mohamed Ali";
+				TargetAttributes = {
+					D3D980F723F2F7FA00EB75E3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = D3D980F323F2F7FA00EB75E3 /* Build configuration list for PBXProject "El Naser Bridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3D980EF23F2F7FA00EB75E3;
+			productRefGroup = D3D980F923F2F7FA00EB75E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D980F723F2F7FA00EB75E3 /* El Naser Bridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D980F623F2F7FA00EB75E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D9811223F2F8EB00EB75E3 /* InShot_20200211_012921855.mp4 in Resources */,
+				D3D9811023F2F8D200EB75E3 /* LaunchScreen.storyboard in Resources */,
+				D316F2C723F2FACB007D266A /* GoogleService-Info.plist in Resources */,
+				D3D9810E23F2F86C00EB75E3 /* Main.storyboard in Resources */,
+				D3D9810323F2F7FD00EB75E3 /* Assets.xcassets in Resources */,
+				D316F2C923F3166E007D266A /* InShot_20200211_184626580.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A26EAF9BE46BE1E6A67AB0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-El Naser Bridge/Pods-El Naser Bridge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-El Naser Bridge/Pods-El Naser Bridge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-El Naser Bridge/Pods-El Naser Bridge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83F0D361C1BD2654CADBD61A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-El Naser Bridge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D980F423F2F7FA00EB75E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A222B923F47E0400CA4061 /* MoreViewController.swift in Sources */,
+				D3A222BB23F480F100CA4061 /* MyCell.swift in Sources */,
+				D3F1CFA923F6C4CF00E348BC /* ArViewController.swift in Sources */,
+				D3EE3BA323F631FE0013B28C /* MoreEnViewController.swift in Sources */,
+				D3EE3BA123F61CA90013B28C /* Language.xcdatamodeld in Sources */,
+				D3A222BD23F5273400CA4061 /* color.swift in Sources */,
+				D3EE3BA523F63BDB0013B28C /* Tools.swift in Sources */,
+				D3D980FC23F2F7FA00EB75E3 /* AppDelegate.swift in Sources */,
+				D3EE3B9D23F610F30013B28C /* EnViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3D9810823F2F7FD00EB75E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3D9810923F2F7FD00EB75E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D9810B23F2F7FD00EB75E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D8453514258D1AB27A9E9C /* Pods-El Naser Bridge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NBM9PQRD2;
+				INFOPLIST_FILE = "El Naser Bridge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MyCompany199.El-Naser-Bridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D3D9810C23F2F7FD00EB75E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D5318EEFE1FDD201D4E304 /* Pods-El Naser Bridge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NBM9PQRD2;
+				INFOPLIST_FILE = "El Naser Bridge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MyCompany199.El-Naser-Bridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D980F323F2F7FA00EB75E3 /* Build configuration list for PBXProject "El Naser Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D9810823F2F7FD00EB75E3 /* Debug */,
+				D3D9810923F2F7FD00EB75E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D9810A23F2F7FD00EB75E3 /* Build configuration list for PBXNativeTarget "El Naser Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D9810B23F2F7FD00EB75E3 /* Debug */,
+				D3D9810C23F2F7FD00EB75E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3EE3B9F23F61CA90013B28C /* Language.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3EE3BA023F61CA90013B28C /* MyNote.xcdatamodel */,
+			);
+			currentVersion = D3EE3BA023F61CA90013B28C /* MyNote.xcdatamodel */;
+			path = Language.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3D980F023F2F7FA00EB75E3 /* Project object */;
+}
